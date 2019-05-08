@@ -1,0 +1,10 @@
+<div class="card" >
+  <div class="card-body">
+    <div class="form-group">
+      <input type="text" id="age" class="form-control" [(ngModel)]="age" required autocomplete="off">
+      <label class="form-control-placeholder" for="age">How old are you?</label>
+    </div>
+    <button type="button" class="btn btn-secondary" (click)="prev()">Back</button>
+    <button type="button" class="btn btn-secondary" (click)="next()">Next</button>
+  </div>
+</div>
